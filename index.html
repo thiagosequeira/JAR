@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>JAR - Estamos en construcción!</title>
+
+  <title>JAR | Jornada Argentina de Robótica</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -12,28 +13,82 @@
   <link href="assets/img/icon.png" rel="icon">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Author: Thiago Sequeira
+  ======================================================== -->
 </head>
 
 <body>
 
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a target="_blank" href="mailto:jornadasargentinasderobotica@gmail.com">jornadasargentinasderobotica@gmail.com</a></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a target="_blank" href="https://www.facebook.com/jornadasargentinasderobotica" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a target="_blank" href="https://www.instagram.com/jornadasargentinasderobotica/" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar-->
+
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div id="logo">
+        <!--<h1><a href="index.html">JAR</a></h1>-->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/JAR_logo.png" alt=""></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre Nosotros</a></li>
+          <li class="dropdown"><a href="#"><span>Información</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#services">Actividades</a></li>
+              <li><a href="#clients">Instituciones Auspiciantes</a></li>
+              <li><a href="#call-to-action">Presentación de Trabajos</a></li>
+              <li><a href="#interes">Temas de Interés</a></li>
+              <li><a href="#testimonials">Fechas Importantes</a></li>
+              <li><a href="#testimonials">Comités</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li class="dropdown"><a href="#"><span>Inscripciones</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSexoC6wGs3xZny3YRucMhoHguLYZJfUak_jUVSE0xKjW0FSFw/viewform">Inscribirse Ahora</a></li>
+              <li><a href="#services">Solucitud Beca</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero ======= -->
+  <section id="hero" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center">
 
-      <h1>JORNADA ARGENTINA DE ROBÓTICA XI</h1>
+      <h1>XI Jornadas Argentina de Robótica</h1>
       <h5>San Carlos de Bariloche, 9-11 de Marzo 2022</h5>
       <div class="countdown d-flex justify-content-center" data-count="2022/03/9">
         <div>
@@ -53,33 +108,387 @@
           <h4>Segundos</h4>
         </div>
       </div>
-      
-      <h6>Toda la información sobre JAR XI estará disponible desde el 01/11/21.</h6>
-
-      <div class="social-links text-center">
-        <a target="_blank" href="mailto:jornadasargentinasderobotica@gmail.com" class="twitter"><i class="bi bi-envelope"></i></a>
-        <a target="_blank" href="https://www.facebook.com/jornadasargentinasderobotica" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a target="_blank" href="https://www.instagram.com/jornadasargentinasderobotica/" class="instagram"><i class="bi bi-instagram"></i></a>
-      </div>
 
     </div>
-  </header><!-- End #header -->
+  </section><!-- End #hero -->
 
   <main id="main">
 
-    <!-- ======= Footer ======= -->
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="assets/img/about-img.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content">
+            <h2>¿Quienes somos?</h2>
+            <p>Las JAR ofrecen un ámbito de reunión para la comunidad de
+              investigadores argentinos y de la región cuyo interés y dedicación estén
+              orientados a la robótica y a temas relacionados, favoreciendo el intercambio
+              horizontal entre grupos de investigadores, compartiendo experiencias y
+              enriqueciendo las soluciones a problemas de interés común.
+              </p>
+              <p>Son también una excelente oportunidad para que los estudiantes, de
+                grado y posgrado, tomen contacto directo con investigadores reconocidos y
+                conferencistas invitados; incentivando el interés por la investigación
+                tecnológica y científica en los jóvenes, entendida como herramienta
+                fundamental para la innovación productiva.</p>
+            </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Actividades</h2>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-trophy"></i></div>
+              <h4 class="title"><a href="">Competencias de robots</a></h4>
+              <p class="description">Con participación masiva de estudiantes de escuelas secundarias y también universitarios.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-lightbulb"></i></div>
+              <h4 class="title"><a href="">Feria de exposiciones</a></h4>
+              <p class="description">Exposiciones de robots y sistemas automáticos tanto de estudiantes secundarios como universitarios.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h4 class="title"><a href="">Actividades sociales</a></h4>
+              <p class="description">Actividades de discusión y debate para delinear estrategias futuras de la comunidad de investigadores abocados a la Robótica y la Automatización en el país.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="box">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title"><a href="">Múltiples sesiones de exposiciones</a></h4>
+              <p class="description">Exposiciones orales de trabajos científicos aprobados por el comité académico del congreso y de avances de tesis de posgrado.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Instituciones Auspiciantes</h2>
+        </div>
+
+        <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_Agencia.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_BarilocheBureau.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_CIFASIS.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_CNEA.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_CONICET.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_FundacionBariloche.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_IB.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/Logo_INVAP.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+        <!-- ======= Call To Action Section ======= -->
+        <section id="call-to-action">
+          <div class="container" data-aos="zoom-out">
+            <div class="row">
+              <div class="col-lg-9 text-center text-lg-start">
+                <h3 class="cta-title">Presentación de Trabajos</h3>
+                <p class="cta-text">Los trabajos deben enviarse por EasyChair en formato PDF siguiendo
+                  los lineamientos del formato IEEE (<strong>A4 Word o LaTex</strong>)<br> y con las siguientes
+                  extensiones máximas y tipos de envíos:</p>
+
+                  <p class="cta-text">Artículo Completo: Máximo 6 páginas.</p>
+                  <p class="cta-text">R1: Avance de tesis de maestría o doctorado.</p>
+
+                  <p class="cta-text">Todos los autores deben subir el artículo correspondiente por
+                    EasyChair antes de las fechas indicadas.<br> Luego, con el ID asignado por
+                    EasyChair, confimar el tipo de envío (A1, A2, R1) por mail a
+                    <strong><a target="_blank" href="mailto:jornadasargentinasderobotica@gmail.com">jornadasargentinasderobotica@gmail.com</a></strong>.</p>
+        
+                  <p class="cta-text">Los trabajos del tipo A1 deben exponerse de forma oral en una
+                    presentación de 15 minutos con 5 minutos para preguntas de la audiencia.
+                    Las presentaciones de los artículos se organizarán en sesiones con temáticas
+                    afines.</p>
+        
+                  <p class="cta-text">Los trabajos estudiantiles de grado (A2) participarán de una
+                    competencia con reconocimientos. Los trabajos seleccionados deberán ser
+                    expuestos por uno o más estudiantes en la sesión de posters y serán
+                    evaluados por un jurado de especialistas que elegirá los mejores trabajos
+                    presentados. El póster debe tener tamaño A0 (84.1cm x 118. 9cm).</p>
+        
+                  <p class="cta-text">Para los estudiantes de posgrado (R1) se prevé un espacio de las
+                    Jornadas para presentar los avances realizados en el marco de tesis de
+                    maestría y doctorado.</p>
+        
+                  <p class="cta-text">Solo los trabajos aceptados que sean presentados en la XI JAR serán
+                    incorporados a las actas del congreso.</p>
+              </div>
+              <div class="col-lg-3 cta-btn-container text-center">
+                <a class="cta-btn align-middle" target="_blank" href="https://www.easychair.org/my/conference?conf=jar2022">Link a EasyChair</a>
+              </div>
+            </div>
+          </div>
+        </section><!-- End Call To Action Section -->
+
+            <!-- ======= Works Section ======= -->
+            <section id="interes">
+              <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                  <h2>Temas de Interés</h2>
+                 </div>
+                 <p>Los trabajos serán agrupados dentro de los siguientes ejes temáticos:</p>
+
+                 <li>Cinemática y Dinámica de Robots</li>
+                 <li>Control e Identificación de Robots</li>
+                 <li>Interacción e Interfaz Hombre-Robot</li>
+                 <li>Robótica Humanoide, Bio-inspirada y de Rehabilitación</li>
+                 <li>Robótica Educativa</li>
+                 <li>Visión e Inteligencia Artificial en Robótica</li>
+                 <li>Planificación, Localización, Mapeo y SLAM</li>
+                 <li>Robótica Móvil: Sub-acuática, Terrestre y Aérea</li>
+                 <li>Fusión Sensorial, Estimación y Seguimiento</li>
+                 <li>Celdas y Sistemas de manufactura</li>
+                 <li>Sistemas Embebidos y de Tiempo Real en Robótica</li>
+                 <li>Sistemas Multi-robot y Robótica Cooperativa</li>
+                 <li>Manipuladores Robóticos y Actuadores</li>
+                 <li>Arquitecturas de Software para Robots</li>
+                 <li>Simulación y Realidad Virtual</li>
+                 <li>Teleoperación</li>
+
+                 <p><br><i>El listado expuesto no es exhaustivo, quedando abierto a otros temas de interés en el área de la robótica</i>.</p>
+
+                 <p><br>La selección de trabajos la realizará un Comité Científico integrado por casi
+                  50 especialistas en el área. Cada trabajo será evaluado por 2 o 3
+                  investigadores pares agrupados bajo la coordinación de investigadores
+                  líderes.</p>
+              </div>
+            </section><!-- End Works Section -->
+
+      <!-- ======= Comités Section ======= -->
+    <section id="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Comités</h2>
+          </div>
+
+          <p>El <strong>Comité Permanente</strong> de las Jornadas Argentinas de Robótica está
+            compuesto por investigadores que han sido organizadores de las diferentes
+            ediciones de las JAR. Uno de los objetivos del comité permanente es
+            asegurar la continuidad de las jornadas, logrando traspasos de información
+            suaves y coordinados entre los organizadores locales. Además, el comité
+            permanente será consejero y referente de los organizadores cuando se lo
+            requiera y en función de sus posibilidades.</p>
+
+            <p>Este comité está compuesto por:</p>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Ricardo Carelli</h3>
+                <h4>INAUT-UNSJ-CONICET</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Favio Masson</h3>
+                <h4>IIIE-UNS-CONICET</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Héctor Chiacchiarini</h3>
+                <h4>IIIE-UNS-CONICET</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Martin Pucheta</h3>
+                <h4>CIII-UTN-FRC</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Gastón Araguás</h3>
+                <h4>CIII-UTN-FRC</h4>
+              </div>
+            </div>
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Gerardo Acosta</h3>
+                <h4>UNICEN-CONICET</h4>
+              </div>
+            </div>
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Juan Santos</h3>
+                <h4>ITBA</h4>
+              </div>
+            </div>
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Ignacio Más</h3>
+                <h4>ITBA</h4>
+              </div>
+            </div>
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Ing. Claudio Verrastro</h3>
+                <h4>UTN-FRBA/CNEA</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dra. Sol Pedre – IB-CNEA</h3>
+                <h4>IB-CNEA</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/user.png" class="testimonial-img" alt="">
+                <h3>Dr. Marcelo Moreyra</h3>
+                <h4>FAIN-UNCo</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Comités Section -->   
+
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action">
+      <div class="container" data-aos="zoom-out">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3 class="cta-title">Inscripciones abiertas!</h3>
+            <p class="cta-text">Las inscripciones ya están abiertas, se debe completar el siguiente formulario online. Para más información o consultas específicas por las exposiciones contactarse a nuestro email.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSexoC6wGs3xZny3YRucMhoHguLYZJfUak_jUVSE0xKjW0FSFw/viewform?usp=sf_link">Inscribirme</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Call To Action Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Contáctanos</h2>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Dirección</h3>
+              <address>Centro Atómico Bariloche - Av. Bustillo 9500, San Carlos de Bariloche - Rio Negro.</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Numero telefónico</h3>
+              <p><a href="tel:+54 294 444 5900">+54 294 444 5900 int. 3864</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:jornadasargentinasderobotica@gmail.com">jornadasargentinasderobotica@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96169.26899392676!2d-71.40995411800836!3d-41.12820233522025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1635962380629!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+     
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Jornada Argentina de Robótica</span></strong>. All Rights Reserved
+        &copy; Copyright <strong>JAR</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://github.com/thiagosequeira">Thiago Sequeira</a>
       </div>
     </div>
-  </footer><!-- End #footer -->
-  
-  </main>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
