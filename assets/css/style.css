@@ -754,7 +754,22 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin: 0;
   }
+}
+#call-to-action .cta-btn-container{
+  margin: 0 0 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+#call-to-action .cta-btn-container-2{
+  margin: 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 #call-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
@@ -873,7 +888,18 @@ section {
     margin-top: 20px;
   }
 }
-
+h5 strong{
+  color: #50d8af;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+h5 {
+  color: #555;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
